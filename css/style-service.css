@@ -1,0 +1,169 @@
+/*list product*/
+.list-services {
+	width:100%;
+	display:inline-block;
+	}
+.list-services .heading { margin-top:32px;}	
+.list-services .row {
+	margin:0 -10px;    
+	}	
+
+.list-services  .col-4 {
+	width:100%;
+	padding:8px 10px;
+	}	
+
+.list-services .item-col {
+	background: #FFFFFF;
+	border-radius: 5px;
+	width:100%;
+	border: 1px solid #DDDDDD;
+	padding:10px;
+	display:inline-block;
+	}
+.list-services .photo {
+	width:100%;
+	position:relative;
+	margin-bottom:8px;
+	display:block;
+	}
+
+.list-services .info {
+	}		
+.list-services .photo img {border-radius: 5px 5px 0px 0px;}
+
+.list-services .title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 32px;
+	text-transform: capitalize;
+	color: #2F2F2F;
+	margin:0;
+	margin-bottom:8px;
+	}
+.list-services .title a {	 
+	color: #2F2F2F;
+	}
+
+.list-services .location {
+	margin:0;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #7F7F7F;
+	margin-bottom:8px;
+	background:url(../images/icon-location.svg) no-repeat 0 0;	
+	display:block;	
+	 padding-left:25px;
+	 height:48px;
+	 overflow:hidden;
+	}
+.list-services .time {
+	margin:0;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #7F7F7F;
+	margin-bottom:8px;
+	background:url(../images/icon-time.svg) no-repeat 0 0;	
+	display:block;	
+	 padding-left:25px;
+	 margin-bottom:16px;
+	}
+
+.list-services  .discount{
+	margin:0;
+	background:url(../images/bg-payment-2.jpg) repeat 0 0;
+	height:40px;
+	line-height:40px;
+	font-weight: 600;
+	font-size:20px;
+	color: #2070D2;
+	text-align:center;
+	margin-bottom:8px;
+	}
+
+
+.list-services .btn-view-more {
+	height:40px;
+	width:100%;
+	display:inline-block;
+	border-radius: 5px;
+	background:#e8f5fc;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	padding:10px 0;
+	color: #2070D2;
+	text-align:center;
+
+	}
+.list-services .btn-get-voucher {
+	height:40px;
+	width:100%;
+	display:inline-block;
+	border-radius: 5px;
+	background: linear-gradient(90deg, #2070D2 -0.01%, #1AA7E5 99.98%);
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	padding:10px 0;
+	color: #fff;
+	text-align:center;
+
+	}	
+
+	
+@media only screen and (min-width: 960px){
+.list-services .heading { margin-top:40px;}	
+.list-services .row {
+	margin:0 -15px;    
+	}	
+
+.list-services  .col-4 {
+	width:33.3333%;
+	padding:12px 15px;
+	}
+.list-services .item-col {
+	padding:0;
+	border:0;
+	border-radius: 0px;
+	}
+.list-services .photo {
+	margin-bottom:0;
+	}
+
+.list-services .info {
+	border-radius: 0 0 5px 5px;
+	width:100%;
+	border: 1px solid #DDDDDD;
+	padding:10px;
+	display:inline-block;
+	border-top:0;
+	padding-bottom:15px;
+	}
+.list-services .title {
+	 height:64px;
+	 overflow:hidden;
+	}
+.list-services .title a {	 
+	display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+	}		
+	}
+@media only screen and (min-width: 768px) and (max-width: 960px){
+.list-services .row {
+	margin:0 -10px;    
+	}	
+
+.list-services  .col-4 {
+	width:50%;
+	padding:12px 10px;
+	}
+	}		
+					

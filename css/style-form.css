@@ -1,0 +1,186 @@
+
+/*popup */
+.modal-dialog .form-service {
+	display:inline-block;
+	width:100%;
+	}
+.modal-dialog .form-service .note {
+	width:100%;
+	display:inline-block;
+	padding:10px;
+	background: #E9F1FB;
+	border-radius: 6px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #2070D2;
+	margin-bottom:10px;
+	}
+.modal-dialog .form-service .list {
+	margin:0;
+	padding:0;
+	}
+.modal-dialog .form-service .list li {
+	width:100%;
+	float:left;
+	list-style:none;
+	margin-bottom:8px;
+	}
+.modal-dialog .form-service .list .text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #00A747;
+	}	
+.modal-dialog .form-service .list .label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	color: #444444;
+	}
+.modal-dialog .form-service .list .small {
+	}		
+.modal-dialog .form-service .list li:last-child {
+	margin-bottom:0;
+	margin-top:8px;
+	text-align:center;
+	}			
+.modal-dialog .form-service .input {
+	width:100%;
+	display:inline-block;
+	height:40px;	
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	padding:10px;
+	color:#333;
+	text-align:left;
+	}
+.modal-dialog .form-service .input.phone {
+	background: url(../images/icon-mobile.svg) no-repeat 12px center #FFFFFF;
+	padding-left:35px;
+	}
+.modal-dialog .form-service .input.user {
+	background: url(../images/ico-user.svg) no-repeat 10px center #FFFFFF;
+	padding-left:35px;
+	}
+.modal-dialog .form-service .input.loca {
+	background: url(../images/loca-ico.svg) no-repeat 12px center #FFFFFF;
+	padding-left:35px;
+	}
+.modal-dialog .form-service .input.car {
+	background: url(../images/ico-car.svg) no-repeat 10px center #FFFFFF;
+	padding-left:35px;
+	}			
+.popup-game .content-verify .input::-webkit-input-placeholder { 
+   color: #7F7F7F;
+}
+.modal-dialog .form-service .btn-button {
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+   	background: linear-gradient(90deg, #2070D2 -0.01%, #1AA7E5 99.98%);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 9px 10px;
+    color: #fff;
+    text-align: center;
+	position:relative;
+	border:0;
+	cursor:pointer;
+}
+.modal-dialog .form-service .btn-button .ico {
+	display:inline-block;
+	width:17px;
+	height:14px;
+	background:url(../images/icon-send.svg) no-repeat center center;
+	margin-left:8px;
+	margin-bottom:-2px;
+	}
+.modal-dialog .form-service .btn-button:before {
+    height: 40px;
+    width: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    background: url(../images/icon-snow.svg) no-repeat 0 0;
+	opacity: 0.4;
+}
+.modal-dialog .form-service .btn-button:after {
+    height: 40px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    content: '';
+    background: url(../images/icon-reindeer.svg) no-repeat bottom right;
+	opacity: 0.4;
+}
+
+																												
+@media only screen and (min-width: 960px){
+
+
+/*popup */
+.modal-dialog .form-service .list {
+	width:100%;
+	display:inline-block;
+	padding:20px 30px;
+	padding-bottom:0;
+	}
+.modal-dialog .form-service .list li {
+	margin-bottom:16px;
+	}
+.modal-dialog .form-service .list .label {
+	font-size: 16px;
+	padding:11px 0;
+	float:left;
+	width:168px;
+	}
+.modal-dialog .form-service .list .small {
+	margin-left:168px;
+	}
+.modal-dialog .form-service .input {
+
+	height:48px;	
+	line-height: 20px;
+	padding:13px 15px;
+	}		
+.modal-dialog .form-service .input.phone {
+	background: url(../images/icon-mobile.png) no-repeat 10px center #FFFFFF;
+	}
+.modal-dialog .form-service .input.user {
+	background: url(../images/ico-user.png) no-repeat 10px center #FFFFFF;	
+	}
+
+.modal-dialog .form-service .input.loca {
+	background: url(../images/loca-ico.png) no-repeat 12px center #FFFFFF;
+	}
+.modal-dialog .form-service .input.car {
+	background: url(../images/ico-car.png) no-repeat 10px center #FFFFFF;
+	}						
+.modal-dialog .form-service .btn-button {
+    height: 56px;  
+    font-size: 18px;
+    line-height: 20px;
+    padding: 17px 0;
+	max-width:275px;
+}
+
+.modal-dialog .form-service .btn-button:before {
+ 
+    background: url(../images/icon-snow.png) no-repeat 0 0;
+}
+.modal-dialog .form-service .btn-button:after {  
+    background: url(../images/icon-reindeer.png) no-repeat bottom right;
+}
+
+}
+@media only screen and (max-width: 960px){
+	.modal-dialog .form-service .list .label { display:none}
+	}
